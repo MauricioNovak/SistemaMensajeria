@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    display: flex;
+}
+
+.containerChat{
+    display: flex;
+    flex-direction: column;
+    width: 16rem;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.containerNet{
+    background-color: rgb(245, 241, 237);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.4;
+    font-size: 15px;
+}
+section h1{
+    margin-top: 20px;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+.imagenPrincipal{
+    width: 220px;
+    display: flex;
+    justify-content: center;
+}
+
+.parrafo{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bold{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fotoPerfil{
+    width: 40px;
+    border-radius: 50%;
+    
+}
+
+.box1{
+    display: flex;
+    flex-direction: row;
+    width: 16rem;
+    justify-content: center;
+}
+
+.boxTop{
+    display: flex;
+    flex-direction: column;
+}
+
+.boxIcons{
+    display: flex;
+    justify-content: flex-end;
+    width: 5rem;
+}
+
+.boxGenerico{
+    display: flex;
+    flex-direction: row;
+    width: 16rem;
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+
+.boxDiv{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.icons{
+    margin-right: 12px;
+}
+
+.nombreTop{
+    margin-left: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nombreTop2{
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.5;
+    font-size: 12px;
+
+}
+
+.nombreChat{
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.textChat{
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.linea{
+    opacity: 0.3;
+}
+
+.boxBoton{
+    display: flex;
+    justify-content: center;
+    width: 16rem;
+
+}
+button{
+    width: 150px;
+    height: 45px;
+    color: white;
+    background-color: #ae9bd2;
+    border: 0;
+}
+
